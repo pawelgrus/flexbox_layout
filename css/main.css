@@ -60,7 +60,7 @@ nav {
 
 .profile_avatar {
   height: 6em;
-  flex-basis: 25%;
+  flex-basis: 6em;
   background-image: url("../img/avatar.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -69,5 +69,31 @@ nav {
 
 .profile_name {
   flex-basis: 75%; }
+
+.accordion {
+  margin: 0;
+  width: 100%;
+  background: #f4f4f4; }
+
+.accordion__title {
+  margin: 0;
+  padding: 1rem 1.5rem;
+  background: #4d4c74;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s ease; }
+
+.accordion__title:hover {
+  background: #484b77; }
+
+.accordion__copy {
+  display: none;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+  color: gray;
+  line-height: 1.6;
+  font-weight: 500; }
+
+.accordion__copy--open {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
